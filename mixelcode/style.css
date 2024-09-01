@@ -1,0 +1,453 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+
+
+	
+	body{
+		
+		color: #000000;
+		background-color: #F1EFE7;
+		
+	}
+
+	/*Header*/
+	header{
+		display: flex;
+		position: fixed;
+		width: 100%;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: row;
+		height: 10vh;
+		z-index: 1;
+		color: #FFFFFF;
+		background: #0F1819;
+		
+	}
+	.header-logo{
+		display: flex;
+		justify-content: flex-start ;
+		align-items: center;
+		
+	}
+	.logo{
+		width: 30px;
+	}
+
+
+	.mobile-nav {
+		display: none;
+		
+	}
+	.mobile-nav > section{
+		margin: 2px 0px 2px 2px;
+		background-color: white;
+		height: 7px;
+		width: 30px;
+	}
+	.nav-list{
+		display: flex;
+		list-style-type: none;
+		flex-direction: row;
+	
+	}
+	
+	.nav-list > li > a{
+		text-transform: capitalize;
+		text-decoration: none;
+		color: #FFFFFF;
+		
+	}
+	.nav-list > li{
+		margin: 50px;
+		
+	}
+	
+
+	.header-there{
+		display: flex;
+		justify-content: flex-end ;
+		
+	}
+	
+	#fa-moon.black{
+		color: #9340FF;
+		
+		
+	}
+	
+	.nav-list > li > a:hover{
+		transition: 0.3s;
+		color: #D33797;
+	}
+	header-there > bi bi-moon-fill:hover{
+		transition: 0.3s;
+		color: #D33797;
+	}
+	
+	/*Main*/
+
+	
+	.intro{
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		height: 100vh;
+		width:100%;
+		color: white;
+		
+		background-color: #0F1819;
+	}
+
+	.intro > img{
+		
+		width:33%;
+	
+		border-radius:100px 10px;
+
+
+	}
+	.barraComSeta{
+		margin: 0;
+		display: flex;
+		justify-content: end;
+		background-color: white;
+		width: 15%;
+		height: 5vh;
+
+	}
+	
+	.sideRight > h1{
+		text-transform: capitalize;
+		
+	}
+	.sideRight > button{
+		margin-top: 10px;
+		padding: 10px 20px;
+		color: #0F1819;
+		background: linear-gradient(to right, #9340FF, #FF3C5F );
+		border-radius: 20px;
+		text-transform: capitalize;
+		
+	}
+	
+	.about{
+		display: flex;
+		height: 100vh;
+		justify-content: center;
+		align-items: center;
+	}
+	.about > h2{
+		font-size: 40px;
+		text-align: center;
+		width: 50%;
+		
+	}
+	
+	.price{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		color: white;
+		height: 100vh;
+		background-color: #0F1819;
+		
+	}
+	
+	.tabela{
+		height:80%;
+		display:flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: space-around;
+		
+	}
+	.tabela > section{
+		background-color: #9340FF;
+		padding: 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		border-radius: 20px;
+		width: 80vw;
+		height: 10%;
+	}
+	.tabela > section > p{
+		display: flex;
+		width: 40%;
+		justify-content: flex-start;
+		
+	}
+	
+	.tabela > h2{
+		width: 80vw;
+		display: flex; 
+		justify-content: flex-start;
+		
+		
+	}
+	
+	.tabela > section > aside{
+		background-color: white;
+		color: black;
+		width: 8%;
+		padding: 5px 40px 5px 20px;
+	    cursor: pointer;
+		border-radius: 20px;
+		transition: 0.9s;
+	}
+
+	.tabela > section > aside:hover{
+		
+		background-color: #b57cff;
+		transition: 0.9s;
+	}
+	
+	
+	.feedback{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		height: 80vh;
+		
+	}
+	
+	.text-feedback > h2{
+		width: 40px;
+		color: #9340FF;
+		text-transform: capitalize;
+		
+	}
+	.text-feedback{
+		display: flex;
+		height: 100%;
+		justify-content: center;
+		flex-direction: column;
+		width: 30%;
+		
+
+	}
+	.text-feedback > p{
+		text-align: justify;
+		
+	}
+	
+	
+	.box-answer{
+		display: flex;
+		flex-direction: column;
+		
+		
+	}
+	
+	.box-answer > h2{
+		color: #9340FF;
+		display: flex;
+		text-transform: capitalize;
+		justify-content: center;
+		
+		
+	}
+	
+	form{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 40vh;
+		width: 30vw;
+		padding: 20px;
+		border-radius: 30px;
+		background-color: #9340FF;
+		
+	}
+	#enviar{
+		margin-top: 10px;
+		height: 30px;
+		width: auto;
+
+	}
+	#User{
+		height: 35px;
+		
+	}
+
+	#message{
+		height: 30vh;
+	}
+
+	.redeSociais{
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.redeSociais > ul{
+		display: flex;
+		flex-direction: row;
+		margin-top: 10px;
+		justify-content: space-around;
+		list-style-type: none;
+	}
+	
+	footer{
+		padding: 0px;
+		height:20vh;
+		color: white;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		background-color:  #0F1819;
+		width: 100%;
+	
+	}
+	.tellme > h3{
+		text-transform: capitalize;
+		color: #9340FF;
+		
+	}
+
+/*responsive*/
+	@media(max-width:956px){
+
+
+		img{
+			width: 40%;
+		}
+		header{
+			width: 100%;
+			
+		}
+		
+		.mobile-nav{
+			display: flex;
+			flex-direction: column;
+
+		}
+		.intro{
+			display: flex;
+			border-radius: 0px;
+		justify-content: center;
+			flex-direction: column-reverse;
+			
+		}
+		.intro > img{
+			margin-top: 20px;
+			width: 70%;
+			
+			
+		}
+		.intro > section{
+			margin-top: 10px;
+			font-size:large;
+			text-align: center;
+		
+		}
+		.intro > section > button{
+			height: 80px;
+			width: 300px;
+			margin-top: 10px;
+			font-size:large;
+			text-align: center;
+		
+		}
+
+
+		 header > nav, .header-there, 	.sideRight > h1, .sideRight > button{
+			display: none;
+			
+		}
+
+		
+		.about > h2{
+			width: 60%;
+			font-size: x-large;
+			text-align: justify;
+
+
+		}
+
+		.tabela > section{
+		margin:20px;
+
+		}
+		footer{width: auto;}
+	}
+
+
+	@media (min-width: 0px) and (max-width: 1080px){
+		
+		footer{
+			display: flex;
+			justify-content: space-around;
+			flex-direction: column-reverse;
+			align-items: flex-start;
+			padding: 10px;
+	}
+	.feedback{
+			display: flex; 
+			flex-direction: column-reverse;
+			height: 80vh;
+	}
+
+	.box-answer > form{
+		font-size: large;
+			width: 90%;
+			height: 90%;
+
+}
+
+	.text-feedback{
+		display: none;
+	}
+
+	.feedback > section{
+		width: 80%;
+		height: 50vh;
+
+	}
+	
+
+}
+
+@media (min-width: 0px) and (max-width:790px) {
+	.tabela{
+		display: flex;
+		justify-content: space-around;
+		height: 100vh;
+	}
+	.tabela > h2{
+		display: flex;
+		align-items: center;
+	}
+
+	.tabela > section{
+		display: flex
+		flex;flex-direction: column;
+		justify-content: space-between;
+		width: 50%;
+		height: 200px;
+	}
+	.tabela > section > aside{
+		width: 100%;
+		padding: 0;
+		text-align: center;
+		height: 30px;
+	}
+	.tabela > section > h3{
+		display: none;
+	}
+
+	.tabela > section > p{
+		width: 100%;
+		padding: 20px;
+		text-align: center;
+		height: 30px;
+	
+	}
+}
